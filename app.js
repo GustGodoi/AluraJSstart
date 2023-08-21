@@ -33,10 +33,10 @@
 // console.log(cidade === input); // false
 
 //Boolena
-const primeironumero = 5;
+const primeiroNumero = 5;
 const segundoNumero = 5;
 let  cadastroAtivado = true;
-if (primeironumero === segundoNumero) {
+if (primeiroNumero === segundoNumero) {
     cadastroAtivado = false
 }
 
