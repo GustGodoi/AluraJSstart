@@ -41,5 +41,3 @@ if (primeironumero === segundoNumero) {
 }
 
 console.log('cadastroAtivado ' + cadastroAtivado);
-
-
