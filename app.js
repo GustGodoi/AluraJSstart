@@ -1,52 +1,45 @@
+// Numericos
+// const primeiroNumero = 1;
+// const segundoNumero = 2;
 
-idade = [30, 35, 28]
-nome = ["Ana", "Juliana", "Leonardo"]
-faculdade = [false, true, true]
+// const operacaoMatematica = primeiroNumero + segundoNumero;
+// console.log('operacaoMatematica: ' + operacaoMatematica)
 
-funionarios = [nomes, idades, falculdades]
+// const numeroPontoFlutuante = 3.3;
+// const segunoPontoFlutuante = .5;
 
-function eMaiorQue10(value) {
-   return valeu >= 10;
+// const operacaoPontoFlutuante = primeiroNumero / numeroPontoFlutuante;
+// console.log('operacaoPontoFlutuante: ' + operacaoPontoFlutuante)
+
+// const alura = 'Alura';
+// console.log(alura * primeiroNumero)
+
+// String
+// const texto1 = 'Óla, mundo!';
+// const texto2 = 'Óla, mundo!';
+// const senha = 'senhaSuperSegura123!';
+// const stringNumeros = '34567';
+
+// const citacao = 'Meu nome é ';
+// const meuNome = 'Leo';
+
+// //concatenação (+)
+
+// console.log(citacao + meuNome)
+
+// const cidade = "belo horizonte";
+// const input = "Belo Horizonte";
+
+// console.log(cidade === input); // false
+
+//Boolena
+const primeironumero = 5;
+const segundoNumero = 5;
+let  cadastroAtivado = true;
+if (primeironumero === segundoNumero) {
+    cadastroAtivado = false
 }
 
-var filtrado = numeros.filter(eMaiorQue10);
-// filtrado é [12, 130, 44]
+console.log('cadastroAtivado ' + cadastroAtivado);
 
-console.log(filtrado)
 
-const notas1 = [10, 6.5, 8, 7.5]
-const notas2 = [9, 6, 6]
-const notas3 = [8.5, 9.5]
-
-const notasGerais = [notas1, notas2, notas3]
-
-let media = 0
-
-for (let i = 0; i < notasGerais.length; i++) {
-    for (let j = 0; j < notasGerais[i].length; j++) {
-        media += notasGerais[i][j] / notasGerais[i].length;
-    }
-}
-
-media = media / notasGerais.length
-
-console.log(media)
-
-testes()
-
-function testes( ) {
-    return 10
-}
-
-let TesteDeQuebraDeLinha = "Oi, tudo bem? Eu sou o Gustavo, esse texto é longo mesmo somente para testes da rolagem horizontal"
-
-array = []
-array.push(1)
-console.log(array)
-
-let PalavrasSimples = ["oi", "ok"]
-
-for (let i = 0; i < PalavrasSimples.length; i++) {
-    const element = PalavrasSimples[i];
-    
-}
