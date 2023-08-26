@@ -14,7 +14,7 @@
 // console.log(soma(2, 5));
 
 // diferença principal ??
-// funções e car são "listadas" no topo do código, mas outras caríaveis não.
+// funções e v0ar são "listadas" no topo do código, mas outras caríaveis não.
 console.log(apresentar())
 function apresentar() {
     return "olá";
@@ -26,4 +26,4 @@ function apresentar() {
 
 // FORMA CORRETA
 const soma = function(num1, num2) {return num1 + num2}
-console.log(soma(2, 5)); 
+console.log(soma(2, 5));
