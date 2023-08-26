@@ -14,7 +14,7 @@
 // console.log(soma(2, 5));
 
 // diferença principal ??
-// funções e v0ar são "listadas" no topo do código, mas outras caríaveis não.
+// funções e var são "listadas" no topo do código, mas outras caríaveis não.
 console.log(apresentar())
 function apresentar() {
     return "olá";

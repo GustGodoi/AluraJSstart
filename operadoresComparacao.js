@@ -14,6 +14,5 @@ console.log(typeof texto);
 // === compara o valor e o tipo de dados
 
 // conversão explicita
-
 Number();
 String();

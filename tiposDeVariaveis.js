@@ -25,12 +25,16 @@
 const forma = 'triangulo';
 const altura = 5;
 const comprimento = 7;
-let area;
+// let area;
 
-if (forma === 'quadrado') {
-    area = altura * comprimento;
-} else {
-    area = (altura * comprimento) / 2;
+const area = (forma, altura, comprimento) => {
+    if (forma === 'quadrado') {
+        return altura * comprimento;
+    } else if (forma === 'triangulo') {
+        return (altura * comprimento) / 2;
+    } else {
+        return `valor informado campo forma: "${forma}", não esperado.`;
+    }
 }
 
-console.log('area: ' + area)
+console.log('Resultado do cálculo da área: ' + area(forma, altura, comprimento));

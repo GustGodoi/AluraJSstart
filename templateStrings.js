@@ -8,6 +8,8 @@ const cidadeNascimento = "São Paulo";
 // " e nasci na cidade de " + cidadeNascimento;
 
 //templateString
-const apresentacao = `Meu nome é ${nome}, minha idade é ${idade} e nasci na cidade de ${cidadeNascimento}`;
+const apresentacao = (nome, idade, cidadeNascimento) => {
+    return `Meu nome é ${nome}, minha idade é ${idade} e nasci na cidade de ${cidadeNascimento}`;
+}
 
-console.log(apresentacao);
+console.log(apresentacao(nome, idade, cidadeNascimento));
